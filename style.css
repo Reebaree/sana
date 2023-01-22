@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+:root{
+    --bgcolor1: #131921;
+    --bgcolor2: #ecf5f5;
+    --acolor1: #f6b766;
+}
+.body{
+    background-color: rgb(77, 5, 5);
+}
+.header{
+    border-color: antiquewhite;
+    margin: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    justify-content: center;
+    
+}
+.header .header-nav {
+    display: flex;
+    /* justify-content: center; */
+}
+.header .header-nav .header-container {
+   
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .header-nav .header-container .amazon-logo {
+    
+    width: 110px;
+    
+}
+.header .header-nav .header-container .header-address{
+    color: aliceblue;
+}
+.header .header-nav .header-container .header-search {
+    
+    width: 540px;
+    height: 70%;
+    display: flex;
+    justify-content: flex;
+    align-items: left;
+    /* align-content: center; */
+    border: 1px;
+}
+.header .header-nav .header-container .header-search .search-input{
+ width: 100%;
+ height: 100%;
+ border: 1px solid rgb(216, 214, 214);
+ padding: 0 10px;
+ border-top-left-radius: 7px;
+ border-bottom-left-radius: 7px;
+
+}
+.header .header-nav .header-container .header-search .search-button{
+     width: 47px;
+     height: 110%;
+     background-color: var(--acolor1);
+     border: 1px solid #acc;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     color: #232323;
+     border-top-right-radius: 7px;
+     border-bottom-right-radius: 7px;
+     padding-left: 10px;
+}
+.header .header-nav .header-container .header-address{
+    color: #ecf5f5;
+}
+.header .header-nav .header-container .header-account{
+    color: #ecf5f5;
+}
+.header .header-nav .header-container .header-order{
+    color: #ecf5f5;
+}
+.header .header-nav .header-container .header-cart{
+   color: #ecf5f5;
+}
+
+
+
+.header .header-nav .header-container .header-address p:hover{
+    border: 1px solid white;
+}
+.header .header-nav .header-container .header-account p:hover{
+    border: 1px solid white;
+}
+.header .header-nav .header-container .header-order p:hover{
+    border: 1px solid white;
+}
+.header .header-nav .header-container .header-cart p:hover{
+    border: 1px solid white;
+}
+.two{
+    
+    border: 2px solid black;
+    padding: 4px;
+    color: #faf4f4;
+    background-color: #233245;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.two p{
+    cursor: pointer;
+    margin-top: 2px;
+}
+.two p:hover{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.container{
+    background-color: rgb(222, 215, 215);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.container p{
+    cursor: pointer;
+    color: #7ca2f5;
+    font-size: small;
+}
+.container p:hover{
+    border-bottom: 1px solid  red;
+    color: red;
+}
+.card{
+
+    width: 350px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    padding: 12px;
+}
+.img img{
+    cursor: pointer;
+    width: 44%;
+    padding: 7px;
+    margin-top: 8px;
+}
+.deals .img{
+    display: flex;
+
+    margin-top: 33px;
+}
+.zoup{
+    margin-top: 44px;
+    background-color: rgb(222, 215, 215);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.deals{
+    flex-direction: column;
+    margin-top: 44px;
+    background-color: rgb(222, 215, 215);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: center;
+}
+.top{
+    border: #ecf5f5;
+    display: flex;
+    justify-content: center;
+    background-color: #2e415b;
+    color: #ecf5f5;
+}
+.top a{
+    cursor: pointer;
+    color: aliceblue;
+}
+.top :hover{
+    background-color: #7ca2f5;  
+}
+.footer{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    background-color: #233245;
+}
+.lists :hover{
+    border-bottom: 1px solid white;
+}
+.br{border-top-color: #233245;
+    border-bottom-color: #233245;
+}
+.end{
+    background-color: #233245;
+    justify-content: center;
+    justify-content: space-around;
+}
+
