@@ -1,2 +1,0 @@
-# sana
-amazon clone
